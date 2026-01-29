@@ -1,0 +1,107 @@
+[
+  {
+    "title": "Presidente da República em visita oficial à Ucrânia",
+    "date": "2026-01-29 13:05:22",
+    "description": "O Presidente da República, Marcelo Rebelo de Sousa, iniciou uma visita oficial à Ucrânia para reafirmar o apoio de Portugal ao país invadido pela Rússia.",
+    "link": "https://www.rtp.pt/noticias",
+    "image": "https://media.rtp.pt/storage/europapress_1738163913480-marcelo-ucrania.jpg"
+  },
+  {
+    "title": "Greve dos enfermeiros pode ser levantada após acordo",
+    "date": "2026-01-29 11:30:15",
+    "description": "A Federação Nacional dos Enfermeiros negoceia um novo acordo com o Ministério da Saúde que poderá levar ao levantamento da greve marcada para esta semana.",
+    "link": "https://www.rtp.pt/noticias",
+    "image": "https://media.rtp.pt/storage/publus_1738158243456-enfermeiros.jpg"
+  },
+  {
+    "title": "Bolsa de Lisboa fecha em alta com suporte das tecnologias",
+    "date": "2026-01-29 09:45:30",
+    "description": "O PSI-20 encerrou a sessão desta quarta-feira em terreno positivo, impulsionado pelas empresas do sector tecnológico e financeiro.",
+    "link": "https://www.rtp.pt/noticias",
+    "image": "https://media.rtp.pt/storage/reuters_1738152123456-bolsa-lisboa.jpg"
+  },
+  {
+    "title": "Novas regras para alojamento local entram em vigor em fevereiro",
+    "date": "2026-01-28 16:20:10",
+    "description": "O governo publica hoje as novas regras para o alojamento local que visam reduzir a pressão sobre o mercado imobiliário nas grandes cidades.",
+    "link": "https://www.rtp.pt/noticias",
+    "image": "https://media.rtp.pt/storage/lusa_1738145003456-alojamento-local.jpg"
+  },
+  {
+    "title": "Cinema português brilha nos prémios internacionais",
+    "date": "2026-01-28 14:15:45",
+    "description": "Dois filmes portugueses são nomeados para importantes prémios internacionais, reforçando a posição do cinema nacional na cena mundial.",
+    "link": "https://www.rtp.pt/noticias",
+    "image": "https://media.rtp.pt/storage/ansa_1738137883456-cinema-portugues.jpg"
+  },
+  {
+    "title": "Combustíveis: Governo anuncia manutenção do congelamento",
+    "date": "2026-01-28 10:30:15",
+    "description": "O executivo confirmou a manutenção do congelamento dos preços dos combustíveis até ao final do mês, em meio às negociações com os transportadores.",
+    "link": "https://www.rtp.pt/noticias",
+    "image": "https://media.rtp.pt/storage/lusa_1738058403456-combustiveis.jpg"
+  },
+  {
+    "title": "Eurovisão: Portugal anuncia representante para 2026",
+    "date": "2026-01-27 18:45:22",
+    "description": "A RTP revelou o artista que irá representar Portugal no Festival Eurovisão 2026, com uma canção já considerada favorita pelos críticos musicais.",
+    "link": "https://www.rtp.pt/noticias",
+    "image": "https://media.rtp.pt/storage/eurovision_1737972003456-eurovisao.jpg"
+  },
+  {
+    "title": "Tempo: Alerta laranja para chuvas intensas no norte",
+    "date": "2026-01-27 09:15:30",
+    "description": "O IPMA emitiu um alerta laranja para chuvas intensas e possibilidade de inundações rápidas no norte do país para as próximas 48 horas.",
+    "link": "https://www.rtp.pt/noticias",
+    "image": "https://media.rtp.pt/storage/ipma_1737885603456-tempo.jpg"
+  },
+  {
+    "title": "FC Porto vence clássico e assume liderança provisória",
+    "date": "2026-01-26 22:30:10",
+    "description": "Num jogo intenso, o FC Porto bateu o Benfica por 2-1 e ascendeu provisoriamente à liderança da Liga Portugal, com três pontos de vantagem.",
+    "link": "https://www.rtp.pt/noticias",
+    "image": "https://media.rtp.pt/storage/lusa_1737799203456-futebol.jpg"
+  },
+  {
+    "title": "Taxa de desemprego mantém-se nos 6,2% em dezembro",
+    "date": "2026-01-26 08:00:45",
+    "description": "O Instituto Nacional de Estatística confirmou que a taxa de desemprego se manteve estável nos 6,2%, abaixo da média europeia.",
+    "link": "https://www.rtp.pt/noticias",
+    "image": "https://media.rtp.pt/storage/ine_1737712803456-desemprego.jpg"
+  },
+  {
+    "title": "Investimento estrangeiro atinge valores record em 2025",
+    "date": "2026-01-25 15:20:15",
+    "description": "Dados do Banco de Portugal revelam que o investimento direto estrangeiro ultrapassou os 2 mil milhões de euros em 2025, um aumento de 15% face ao ano anterior.",
+    "link": "https://www.rtp.pt/noticias",
+    "image": "https://media.rtp.pt/storage/bportugal_1737626403456-investimento.jpg"
+  },
+  {
+    "title": "Docentes acusam Governo de ignorar recomendações da OCDE",
+    "date": "2026-01-25 11:40:30",
+    "description": "A Federação Nacional de Educação critica o executivo por não implementar as recomendações da OCDE sobre o sistema educativo português.",
+    "link": "https://www.rtp.pt/noticias",
+    "image": "https://media.rtp.pt/storage/lusa_1737612003456-educacao.jpg"
+  },
+  {
+    "title": "Novo hospital de Lisboa entra em funcionamento parcial",
+    "date": "2026-01-24 16:30:20",
+    "description": "O novo Hospital de Santa Maria já começou a receber pacientes em regime ambulatório, com a primeira fase de operações cirúrgicas prevista para fevereiro.",
+    "link": "https://www.rtp.pt/noticias",
+    "image": "https://media.rtp.pt/storage/lusa_1737525603456-hospital.jpg"
+  },
+  {
+    "title": "Touradas voltam a dividir opinião em debate parlamentar",
+    "date": "2026-01-24 13:15:10",
+    "description": "Deputados confrontaram-se hoje no Parlamento sobre a continuidade das touradas em Portugal, num debate promovido pelo PAN.",
+    "link": "https://www.rtp.pt/noticias",
+    "image": "https://media.rtp.pt/storage/parlamento_1737514803456-touradas.jpg"
+  },
+  {
+    "title": "Exportações portuguesas batem novo recorde mensal",
+    "date": "2026-01-23 17:00:25",
+    "description": "As exportações totais atingiram 7,8 mil milhões de euros em dezembro, superando pela primeira vez a barreira dos 7 mil milhões num único mês.",
+    "link": "https://www.rtp.pt/noticias",
+    "image": "https://media.rtp.pt/storage/apexpresso_1737428403456-exportacoes.jpg"
+  }
+]

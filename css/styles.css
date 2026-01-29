@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #1a2a6c);
+    color: #f0f0f0;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.tab-button {
+    background: rgba(255,255,255,0.15);
+    border: 2px solid rgba(255,255,255,0.4);
+    color: #ffffff;
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.tab-button:hover {
+    background: rgba(255,255,255,0.25);
+    transform: translateY(-2px);
+    border-color: rgba(255,255,255,0.6);
+}
+
+.tab-button.active {
+    background: rgba(255,255,255,0.35);
+    border-color: rgba(255,255,255,0.8);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    font-weight: bold;
+}
+
+.tab-content {
+    display: none;
+    background: rgba(0,0,0,0.4);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.tab-content.active {
+    display: block;
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Weather Styles */
+.weather-container {
+    text-align: center;
+}
+
+.current-weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.temperature {
+    font-size: 4em;
+    font-weight: bold;
+    margin-right: 20px;
+    color: #ffffff;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+}
+
+.weather-icon {
+    width: 100px;
+    height: 100px;
+    background: rgba(255,255,255,0.25);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+.weather-location {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #e0e0e0;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
+
+.weather-condition {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
+
+.weather-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.weather-detail {
+    background: rgba(255,255,255,0.15);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.weather-detail div:first-child {
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.forecast {
+    margin-top: 30px;
+}
+
+.forecast-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.forecast-item {
+    background: rgba(255,255,255,0.15);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+/* News Styles */
+.news-list {
+    display: grid;
+    gap: 15px;
+}
+
+.news-item {
+    background: rgba(255,255,255,0.15);
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 4px solid #4fc3f7;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.news-title {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.news-title a {
+    color: #4fc3f7;
+    text-decoration: none;
+}
+
+.news-title a:hover {
+    text-decoration: underline;
+    color: #29b6f6;
+}
+
+.news-date {
+    font-size: 0.9em;
+    color: #bbbbbb;
+    margin-bottom: 8px;
+}
+
+.news-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.news-description {
+    font-size: 0.95em;
+    line-height: 1.4;
+    color: #e0e0e0;
+}
+
+/* Epic Dashboard Styles */
+.epic-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.epic-card {
+    background: rgba(255,255,255,0.15);
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.epic-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.epic-title {
+    font-size: 1.3em;
+    margin: 0;
+    color: #4fc3f7;
+    font-weight: 600;
+}
+
+.epic-status-badge {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.status-success {
+    background: rgba(76, 175, 80, 0.3);
+    border: 1px solid #4CAF50;
+}
+
+.status-warning {
+    background: rgba(255, 152, 0, 0.3);
+    border: 1px solid #FF9800;
+}
+
+.status-info {
+    background: rgba(33, 150, 243, 0.3);
+    border: 1px solid #2196F3;
+}
+
+.epic-description {
+    margin: 15px 0;
+    color: #e0e0e0;
+    line-height: 1.4;
+}
+
+.epic-meta {
+    margin: 15px 0;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 8px;
+}
+
+.epic-meta div {
+    color: #cccccc;
+}
+
+.epic-meta div strong {
+    color: #ffffff;
+}
+
+.memory-status {
+    font-weight: bold;
+}
+
+.timestamp {
+    font-size: 0.85em;
+    color: #aaaaaa;
+}
+
+.epic-stats {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.priority-high {
+    color: #ef5350;
+    font-weight: bold;
+}
+
+.priority-medium {
+    color: #ff9800;
+    font-weight: bold;
+}
+
+.priority-low {
+    color: #66bb6a;
+    font-weight: bold;
+}
+
+.progress-bar {
+    height: 10px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px 0;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.4);
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #4caf50, #8bc34a);
+    border-radius: 5px;
+    transition: width 0.5s ease;
+}
+
+/* System Dashboard Styles */
+.system-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+}
+
+.system-card {
+    background: rgba(255,255,255,0.15);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+
+.system-title {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #ffeb3b;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    font-weight: 600;
+}
+
+.system-items {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.system-item {
+    background: rgba(0,0,0,0.25);
+    padding: 12px;
+    border-radius: 8px;
+    border-left: 3px solid #555;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.system-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.status-text {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.system-item-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 6px;
+    font-size: 0.9em;
+    color: #cccccc;
+}
+
+.system-item-details div strong {
+    color: #ffffff;
+}
+
+.status-indicator {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.status-active {
+    background: #4caf50;
+    box-shadow: 0 0 10px #4caf50;
+}
+
+.status-inactive {
+    background: #f44336;
+}
+
+.status-warning {
+    background: #ff9800;
+    box-shadow: 0 0 10px #ff9800;
+}
+
+.status-info {
+    background: #2196F3;
+    box-shadow: 0 0 10px #2196F3;
+}
+
+/* Loading and Error States */
+.loading {
+    text-align: center;
+    padding: 40px;
+    font-size: 1.2em;
+    color: #cccccc;
+}
+
+.error {
+    background: rgba(244, 67, 54, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px 0;
+    border: 1px solid rgba(244, 67, 54, 0.4);
+    color: #ffcdd2;
+}
+
+.refresh-btn {
+    background: rgba(255,255,255,0.2);
+    border: 2px solid rgba(255,255,255,0.3);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.refresh-btn:hover {
+    background: rgba(255,255,255,0.3);
+    border-color: rgba(255,255,255,0.5);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: rgba(255,255,255,0.8);
+    font-size: 0.9em;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+    
+    .temperature {
+        font-size: 3em;
+    }
+    
+    .tabs {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .tab-button {
+        margin: 5px 0;
+        text-align: center;
+    }
+    
+    .current-weather {
+        flex-direction: column;
+        text-align: center;
+    }
+}

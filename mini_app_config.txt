@@ -1,0 +1,32 @@
+Mini App Configuration for Moltbot
+
+Name: Moltbot Dashboard
+URL: https://yourdomain.com/mini_app/index.html
+Description: A comprehensive dashboard for managing tasks, files, notes, system status, package tracking, and more.
+
+Features:
+1. Personal Dashboard - Overview of daily tasks, calendar events, weather, and notifications
+2. Task Manager - Create, view, and manage to-do lists with priority levels
+3. File Explorer - Browse and manage workspace files with preview capabilities
+4. Quick Notes - Take and access notes synced with your knowledge base
+5. System Status Panel - Check status of services, cron jobs, and running agents
+6. Package Tracker - Monitor all shipments with tracking information
+7. Knowledge Base Search - Search your personal knowledge base and memories
+8. Automation Studio - Create and manage visual automation workflows
+9. Health & Activity Tracker - Track habits, goals, and wellness metrics
+
+Requirements:
+- Host the index.html file on a web server accessible via HTTPS
+- Ensure the domain is whitelisted for Telegram Mini Apps
+- The app should be responsive for mobile viewing
+
+To register this Mini App with BotFather:
+1. Send /setmenubutton to BotFather
+2. Select your bot
+3. Enter the full HTTPS URL where the index.html file is hosted
+4. Optionally set a text for the menu button (e.g. "Open Dashboard")
+
+Privacy Notice:
+- The app runs within Telegram's secure environment
+- Data is processed locally unless explicitly shared by the user
+- No personal data is collected without user consent

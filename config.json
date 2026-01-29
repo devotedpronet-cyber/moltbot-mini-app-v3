@@ -1,0 +1,28 @@
+{
+  "appName": "Moltbot Mini App",
+  "version": "1.0",
+  "apiEndpoints": {
+    "weather": {
+      "baseUrl": "https://api.weatherapi.com/v1",
+      "location": "Estoril,Portugal",
+      "units": "celsius"
+    },
+    "rss": {
+      "sources": [
+        "https://www.rtp.pt/noticias/rss"
+      ]
+    }
+  },
+  "features": {
+    "weather": true,
+    "contentFrame": true,
+    "newsFeed": true,
+    "epicDashboard": true,
+    "systemDashboard": true
+  },
+  "theme": {
+    "primaryColor": "#1a2a6c",
+    "secondaryColor": "#b21f1f",
+    "backgroundColor": "linear-gradient(135deg, #1a2a6c, #b21f1f, #1a2a6c)"
+  }
+}
